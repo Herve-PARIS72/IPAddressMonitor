@@ -1,0 +1,6 @@
+﻿services:
+  workerserviceippublic:
+    image: workerserviceippublic
+    build:
+      context: .
+      dockerfile: WorkerServiceIpPublic/Dockerfile
